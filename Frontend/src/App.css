@@ -1,0 +1,94 @@
+/* Global reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  background: #f5f7fa;
+  color: #222;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  padding: 40px 20px;
+}
+
+/* App container */
+.App {
+  width: 100%;
+  max-width: 750px;
+  background: white;
+  padding: 30px 35px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.08);
+  text-align: center;
+}
+
+/* Title */
+h2 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 25px;
+  color: #1a1a1a;
+}
+
+/* File input */
+input[type="file"] {
+  margin: 18px 0;
+  border: 1px dashed #999;
+  padding: 8px;
+  width: 100%;
+  border-radius: 6px;
+  background: #fafafa;
+  cursor: pointer;
+}
+
+/* Button */
+button {
+  margin-top: 12px;
+  padding: 10px 28px;
+  border: none;
+  background: #0077ff;
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+  background: #0064d6;
+  transform: translateY(-1px);
+}
+
+button:active {
+  transform: scale(0.98);
+}
+
+/* Chart wrapper */
+.chart-container {
+  margin-top: 30px;
+  width: 100%;
+  height: 420px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 12px;
+  background: #fff;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 600px) {
+  .App {
+    padding: 20px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  .chart-container {
+    height: 320px;
+  }
+}

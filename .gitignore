@@ -1,0 +1,26 @@
+*.csv
+__pycache__/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+energy_venv/
+venv/
+.env/
+
+# Data files
+*.csv
+*.txt
+*.json
+
+# Model weights
+*.pt
+*.pth
+
+# Jupyter
+*.ipynb_checkpoints/
+
+# VS Code settings (optional)
+.vscode/
